@@ -1,0 +1,137 @@
+[{
+  "_id": {
+    "$oid": "6317c06e938af66dbc3b4800"
+  },
+  "details": "SIN EXCEPCION.",
+  "code": 0,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662500974094"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662500974094"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c06e938af66dbc3b4801"
+  },
+  "details": "HASTA E INCLUYENDO 2.5 CM. LARGO / DIAMETRO.",
+  "code": 1,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662500974094"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662500974094"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c06e938af66dbc3b4802"
+  },
+  "details": "MAYOR 2.5 CM. HASTA E INCLUYENDO 7.5 CM.",
+  "code": 2,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662500974094"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662500974094"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c06e938af66dbc3b4806"
+  },
+  "details": "SUSTITUCION / DAÑO SEVERO.",
+  "code": 6,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662500974095"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662500974095"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c06e938af66dbc3b4805"
+  },
+  "details": "MAYOR 30 CM. LARGO / DIAMETRO.",
+  "code": 5,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662500974095"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662500974095"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c06e938af66dbc3b4807"
+  },
+  "details": "FALTANTE.",
+  "code": 7,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662500974095"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662500974095"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c06e938af66dbc3b4804"
+  },
+  "details": "MAYOR 15 CM. HASTA E INCLUYENDO 30 CM.",
+  "code": 4,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662500974094"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662500974094"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c06e938af66dbc3b4803"
+  },
+  "details": "MAYOR 7.5 CM. HASTA E INCLUYENDO 15 CM.",
+  "code": 3,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662500974094"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662500974094"
+    }
+  }
+}]

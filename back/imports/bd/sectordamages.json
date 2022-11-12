@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "name": "LAT. IZQUIERDO",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662517198005"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662517198005"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317ffce7f06c122377f0a55"
+  },
+  "name": "FRENTE",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662517198005"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662517198005"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "name": "LAT. DERECHO",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662517198005"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662517198005"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "name": "TREN INFERIOR / TECHO / VARIOS",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662517198005"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662517198005"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "name": "EXTREMO TRASERO",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662517198005"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662517198005"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "name": "INTERIOR",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662517198005"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662517198005"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918c47ef1e22779090605"
+  },
+  "name": "OTROS",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589124799"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589124799"
+    }
+  }
+}]

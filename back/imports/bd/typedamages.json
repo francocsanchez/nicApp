@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "63123cca80ca7bb6d72d8553"
+  },
+  "name": "DE ESTADIA",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662139594014"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662139594014"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63123cd280ca7bb6d72d8555"
+  },
+  "name": "TRANSPORTE",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662139602161"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662139602161"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63135b166f560378b0fdc245"
+  },
+  "name": "DE TRANSITO",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662212886652"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662212886652"
+    }
+  }
+}]
