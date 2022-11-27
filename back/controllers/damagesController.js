@@ -92,8 +92,7 @@ const addItem = async (req, res) => {
         return res.status(400).json({ errors: errors.mapped() });
     }
 
-
-    const { vin, typeDamage, arrDamage } = req.body;
+    const { vin, typeDamage, damages } = req.body;
 
     await damageModel.create({
         'car.vin': vin,
@@ -101,7 +100,7 @@ const addItem = async (req, res) => {
         'damage.history': [{
             'details': 'Unidad ingresada'
         }],
-        'damage.damages': arrDamage
+        'damage.damages': damages
     })
 
     return res.status(200)

@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import { Global } from "../../../helpers/Global";
 import useAuth from "../../../hooks/useAuth";
+import { SerializeForm } from "../../../helpers/SerializeForm";
 
 export const FormDamages = ({ arrDamage, setArrDamage }) => {
   let navigate = useNavigate();
@@ -122,12 +123,9 @@ export const FormDamages = ({ arrDamage, setArrDamage }) => {
   const createDamage = async (e) => {
     e.preventDefault();
 
-    const car = {
-      vin: e.target.vin.value,
-      typeDamage: e.target.typeDamage.value,
-      arrDamage,
-    };
-
+    let car = SerializeForm(e.target);
+    car.damages = arrDamage;
+    
     await axios
       .post(`${Global.url}damages/`, car, {
         headers: {
