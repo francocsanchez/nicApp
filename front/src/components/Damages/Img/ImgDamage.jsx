@@ -1,23 +1,24 @@
 import { useState, useEffect, useContext } from "react";
-import { ContextAuth } from "../../../context/AuthContext";
 import { useParams } from "react-router-dom";
 import { TableDamages } from "../TableDamages";
 
 import axios from "axios";
 import { FormAddImg } from "./FormAddImg";
 import { ListImg } from "./ListImg";
+import { Global } from "../../../helpers/Global";
+import useAuth from "../../../hooks/useAuth";
 
 const ImgDamage = () => {
   const { id } = useParams();
 
   const [damage, setDamage] = useState([]);
-  const [auth] = useContext(ContextAuth);
+  const { token } = useAuth();
 
   useEffect(() => {
     const getDamage = async () => {
-      const data = await axios.get(`/api/damages/${id}`, {
+      const data = await axios.get(`${Global.url}damages/${id}`, {
         headers: {
-          Authorization: `Bearer ${auth.token}`,
+          Authorization: `Bearer ${token}`,
         },
       });
       setDamage(data.data.data);

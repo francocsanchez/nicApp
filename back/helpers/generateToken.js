@@ -1,13 +1,17 @@
 const jwt = require('jsonwebtoken');
 
+// FUNCTION: Crear Token
 const tokenSing = async (user) => {
-    return jwt.sign(
-        {
-            _id: user._id,
-            role: user.role,
-            lastname: user.lastname,
-            name: user.name
-        },
+
+    data = {
+        id: user._id,
+        name: user.name,
+        lastname: user.lastname,
+        email: user.email,
+        role: user.role
+    }
+
+    return jwt.sign(data,
         process.env.KEY_TOKEN,
         {
             expiresIn: "4h"
@@ -15,6 +19,7 @@ const tokenSing = async (user) => {
     );
 }
 
+// FUNCTION: Verificar Token
 const verifyToken = async (token) => {
     try {
         return jwt.verify(token, process.env.KEY_TOKEN)

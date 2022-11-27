@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
 import axios from "axios";
+import { Global } from "../../../helpers/Global";
 
 export const ListCardDamage = ({ arrDamage, setArrDamage }) => {
   const [sectorDamage, setSectorDamage] = useState([]);
@@ -8,12 +9,12 @@ export const ListCardDamage = ({ arrDamage, setArrDamage }) => {
   const [damageDetails, setDamageDetails] = useState([]);
 
   const getSectorDamage = async () => {
-    const data = await axios.get(`/api/sector-damage`);
+    const data = await axios.get(`${Global.url}sector-damage`);
     setSectorDamage(data.data.data);
   };
 
   const getDamageDetails = async (e) => {
-    const data = await axios.get(`/api/damage-details`);
+    const data = await axios.get(`${Global.url}damage-details`);
     setDamageDetails(data.data.data);
   };
 

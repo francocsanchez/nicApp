@@ -1,44 +1,39 @@
-import { useState, useEffect, useContext } from "react";
-import { ContextAuth } from "../../context/AuthContext";
-import { useParams, Link } from "react-router-dom";
 import axios from "axios";
-
-//Components
-import { TableDamages } from "./TableDamages";
+import { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
+import { Global } from "../../helpers/Global";
+import useAuth from "../../hooks/useAuth";
 import { AddHistory } from "./History/AddHistory";
 import { HistoryDetails } from "./History/HistoryDetails";
+import { TableDamages } from "./TableDamages";
 
 export const Damage = () => {
   const { id } = useParams();
-
-  const [damage, setDamage] = useState([]);
-  const [auth] = useContext(ContextAuth);
+  const [damage, setDamage] = useState({});
+  const { token } = useAuth();
 
   useEffect(() => {
-    const getDamage = async () => {
-      const data = await axios.get(`/api/damages/${id}`, {
-        headers: {
-          Authorization: `Bearer ${auth.token}`,
-        },
-      });
-      setDamage(data.data.data);
-    };
     getDamage();
     // eslint-disable-next-line
   }, [damage]);
+  const getDamage = async () => {
+    const data = await axios.get(`${Global.url}damages/${id}`, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+    setDamage(data.data.data);
+  };
 
   return (
-    <div className="container">
-      <TableDamages details={damage.damage?.damages} />
+    <>
       <div className="row">
-        <div className="col-8">
-          <h4 className="pb-2">INFORMACION DEL SINIESTRO</h4>
+        <TableDamages details={damage.damage?.damages} />
+        <div className="col-9">
+          <h3 className="pb-2">INFORMACION DEL SINIESTRO</h3>
         </div>
-        <div className="col-4 text-end">
-          <Link
-            className="btn btn-dark w-100"
-            to={`/damages/${damage._id}/show/img`}
-          >
+        <div className="col-3 text-end">
+          <Link className="btn btn-dark w-100" to={`/sys/damages/${id}/img`}>
             <i className="fa-solid fa-image"></i> IMAGENES
           </Link>
         </div>
@@ -51,6 +46,6 @@ export const Damage = () => {
           <AddHistory id={damage._id} repair={damage.damage?.repair} />
         </div>
       </div>
-    </div>
+    </>
   );
 };

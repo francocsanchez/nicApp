@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { ContextAuth } from "../../context/AuthContext";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 export const LinkAuth = () => {
   let navigate = useNavigate();
@@ -9,21 +9,43 @@ export const LinkAuth = () => {
   const logout = () => {
     window.sessionStorage.setItem("token", "");
     window.sessionStorage.setItem("user", JSON.stringify(""));
-    navigate("/login", { replace: true });
+    navigate("/", { replace: true });
     window.location.reload();
   };
 
   return (
-    <li className="nav-item">
+    <>
       {auth.user?.name ? (
-        <a href="/#" className="nav-link" onClick={logout}>
-          {auth.user.email}
-        </a>
+        <li className="nav-item dropdown">
+          <a
+            className="nav-link dropdown-toggle"
+            href="/#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            {auth.user?.email}
+          </a>
+          <ul className="dropdown-menu">
+            <li>
+              <Link className="dropdown-item" to={`/users/${auth.user?.id}/profile`}>
+                Mi Perfil
+              </Link>
+            </li>
+            <li>
+              <a href="/#" className="dropdown-item" onClick={logout}>
+                Salir
+              </a>
+            </li>
+          </ul>
+        </li>
       ) : (
-        <a href="/login" className="nav-link">
-          Iniciar Sesion
-        </a>
+        <li className="nav-item">
+          <a href="/login" className="nav-link">
+            Iniciar Sesion
+          </a>
+        </li>
       )}
-    </li>
+    </>
   );
 };

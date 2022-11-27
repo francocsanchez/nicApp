@@ -1,51 +1,51 @@
-import { useState, useEffect, useContext } from "react";
-import { ContextAuth } from "../../context/AuthContext";
-import axios from "axios";
-
-//Componets
-import { CardDamage } from "./CardDamage";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+
+import axios from "axios";
+import useAuth from "../../hooks/useAuth";
+import { Global } from "../../helpers/Global";
+
+import { TitleCountDamages } from "./Helpers/TitleCountDamages";
+import { CardDamage } from "./CardDamage";
 
 export const ListDamages = () => {
   const [damages, setDamages] = useState([]);
-  const [auth] = useContext(ContextAuth);
+  const { token } = useAuth();
 
   useEffect(() => {
-    const getDamages = async () => {
-      const data = await axios.get("/api/damages", {
+    getDamages();
+  }, []);
+
+  const getDamages = async () => {
+    try {
+      const data = await axios.get(`${Global.url}damages`, {
         headers: {
-          Authorization: `Bearer ${auth.token}`,
+          Authorization: `Bearer ${token}`,
         },
       });
       setDamages(data.data.data);
-    };
-    getDamages();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
   return (
-    <div className="container">
+    <>
       <div className="row">
-        <div className="col-6">
-          {damages.length ? (
-            <h3 className="pb-2">LISTADO DE SINIESTROS</h3>
-          ) : (
-            <h1 className="text-center fw-bold py-5">
-              NO HAY UNIDADES SINIESTRADAS
-            </h1>
-          )}
+        <div className="col-9">
+          <TitleCountDamages countDamages={damages.length} />
         </div>
-        <div className="col-6 text-end">
-          <Link className="btn btn-success" to="/damages/create">
+        <div className="col-3 text-end">
+          <Link className="btn btn-success" to="/sys/damages/create">
             <i className="fa-solid fa-image"></i>AGREGAR SINIESTRO
           </Link>
         </div>
       </div>
       <div className="row row-cols-1 row-cols-md-4 text-center">
-        {damages.map((damage, i) => {
+        {damages?.map((damage, i) => {
           return <CardDamage damage={damage} key={i} />;
         })}
       </div>
-    </div>
+    </>
   );
 };

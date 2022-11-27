@@ -1,11 +1,12 @@
-import { useState, useContext } from "react";
-import { ContextAuth } from "../../../context/AuthContext";
+import { useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
+import useAuth from "../../../hooks/useAuth";
+import { Global } from "../../../helpers/Global";
 
 export const FormAdd = ({ id }) => {
   const [stateDetails, setStateDetails] = useState(true);
-  const [auth] = useContext(ContextAuth);
+  const { auth, token } = useAuth();
 
   const validatorDetails = (e) => {
     if (e.target.value.length >= 2) {
@@ -22,11 +23,15 @@ export const FormAdd = ({ id }) => {
       id,
       details: e.target.details.value,
       repair: e.target.repair.checked,
-      user: auth.user.id,
+      user: auth._id,
     };
 
     await axios
-      .post(`/api/damages/history/add`, history)
+      .post(`${Global.url}damages/history/add`, history, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
       .then((res) => {
         e.target.details.value = "";
         Swal.fire({
@@ -37,6 +42,7 @@ export const FormAdd = ({ id }) => {
           timer: 1300,
           toast: true,
         });
+        setStateDetails(true);
       })
       .catch((error) => {
         Swal.fire({
@@ -62,7 +68,12 @@ export const FormAdd = ({ id }) => {
         ></textarea>
       </div>
       <div className="form-check">
-        <input className="form-check-input" type="checkbox" name="repair" />
+        <input
+          className="form-check-input"
+          type="checkbox"
+          name="repair"
+          disabled={stateDetails}
+        />
         <label className="form-check-label">Unidad reparada</label>
       </div>
       <button

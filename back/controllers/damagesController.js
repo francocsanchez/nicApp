@@ -4,7 +4,6 @@ const fs = require('fs');
 
 const getItems = async (req, res) => {
     try {
-        console.log(req.headers)
         const data = await damageModel.find({ 'damage.repair': false });
 
         return res.status(200)
@@ -67,11 +66,11 @@ const getItem = async (req, res) => {
 
 const addHistory = async (req, res) => {
 
-    const { details, repair, id,user } = req.body
+    const { details, repair, id, user } = req.body
 
     const data = await damageModel.findOne({ "_id": id });
 
-    data.damage.history.push({ details,user });
+    data.damage.history.push({ details, user });
     data.damage.repair = repair;
     data.date = new Date();
 
@@ -134,7 +133,6 @@ const addImg = async (req, res) => {
             });
 
     } else if (typeImg != 'image') {
-        console.log('No es una imagen')
         fs.unlinkSync(req.file.path)
         return res.status(400)
             .json({

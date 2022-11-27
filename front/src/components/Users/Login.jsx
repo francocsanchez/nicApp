@@ -1,51 +1,36 @@
-import { useContext } from "react";
-import { ContextAuth } from "../../context/AuthContext";
-import axios from "axios";
+import { useForm } from "../../hooks/useForm";
+
 import Swal from "sweetalert2";
-import { useNavigate } from "react-router-dom";
+
+import axios from "axios";
+import { Global } from "../../helpers/Global";
 
 export const Login = () => {
-  let navigate = useNavigate();
+  const { form, changed } = useForm({});
 
-  const [auth, setAuth] = useContext(ContextAuth);
-
-  const loginForm = async (e) => {
+  const login = async (e) => {
     e.preventDefault();
 
-    const user = {
-      email: e.target.email.value,
-      password: e.target.password.value,
-    };
+    const user = form;
 
     try {
-      await axios.post(`/api/users/login`, user).then((res) => {
+      await axios.post(`${Global.url}users/login`, user).then((res) => {
         Swal.fire({
           position: "top-end",
-          icon: "success",
+          icon: res.data.status,
           title: res.data.msg,
           showConfirmButton: false,
           timer: 1300,
           toast: true,
         });
-        const { tokenSession, data } = res.data;
+
+        const { tokenSession, user } = res.data;
         window.sessionStorage.setItem("token", tokenSession);
-        window.sessionStorage.setItem("user", JSON.stringify(data));
-
-        setAuth({
-          token: tokenSession,
-          user: data
-        });
-
-        navigate("/damages", { replace: true });
+        window.sessionStorage.setItem("user", JSON.stringify(user));
+        window.location.reload();
       });
     } catch (error) {
-      if (error.response.data.type === "notUser") {
-        e.target.email.value = "";
-        e.target.password.value = "";
-      }
-      if (error.response.data.type === "notPassword") {
-        e.target.password.value = "";
-      }
+      document.getElementById("formLogin").reset();
 
       Swal.fire({
         position: "top-end",
@@ -57,12 +42,11 @@ export const Login = () => {
       });
     }
   };
-
   return (
-    <div className="container">
-      <h4>INICIO DE SESION</h4>
+    <>
+      <h4 className="text-bold">INICIO DE SESION</h4>
       <header className="justify-content-center py-3 mb-4 border-bottom">
-        <form onSubmit={loginForm}>
+        <form onSubmit={login} id="formLogin">
           <div className="row">
             <div className="col-6">
               <div className="mb-3">
@@ -72,6 +56,7 @@ export const Login = () => {
                   className="form-control"
                   name="email"
                   aria-describedby="emailHelp"
+                  onChange={changed}
                 />
               </div>
             </div>
@@ -82,6 +67,7 @@ export const Login = () => {
                   type="password"
                   className="form-control"
                   name="password"
+                  onChange={changed}
                 />
               </div>
             </div>
@@ -93,6 +79,6 @@ export const Login = () => {
           </div>
         </form>
       </header>
-    </div>
+    </>
   );
 };

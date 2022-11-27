@@ -22,10 +22,10 @@ const upload = multer({ storage });
 
 // TODO: Siniestros rutas
 router.get('/', checkAuth, getItems);
-router.post('/', createDamage, addItem);
-router.post('/history/:id/img/add', upload.single('img'), addImg)
-router.post('/history/add', addHistory);
-router.get('/repair', getItemsRepair);
 router.get('/:id', checkAuth, getItem);
+router.post('/', checkAuth, addItem);
+router.post('/history/add', checkAuth, addHistory);
+router.post('/history/:id/img/add', checkAuth, upload.single('img'), addImg)
+router.get('/repair', checkAuth, getItemsRepair);
 
 module.exports = router;
