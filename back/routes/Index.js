@@ -6,6 +6,7 @@ const routes = {
     damageCodeRoutes: require('./DamageCode'),
     damagesRoutes: require('./Damages'),
     usersRoutes: require('./Users'),
+    adminRoutes: require('./Admin'),
 }
 
 module.exports = routes;

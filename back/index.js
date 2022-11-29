@@ -21,6 +21,7 @@ const {
     damageTypeRoutes,
     damagesRoutes,
     usersRoutes,
+    adminRoutes
 } = require('./routes/Index');
 
 app.use('/api/damage-details', damageDetailsRoutes);
@@ -30,6 +31,7 @@ app.use('/api/damage-code', damageCodeRoutes);
 app.use('/api/damage-type', damageTypeRoutes);
 app.use('/api/damages', damagesRoutes);
 app.use('/api/users', usersRoutes);
+app.use('/api/admin', adminRoutes);
 
 app.listen(process.env.APP_PORT || 3000, () => {
     console.log('*** Server running ***');
