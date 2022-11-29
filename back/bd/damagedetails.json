@@ -1,0 +1,1941 @@
+[{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090609"
+  },
+  "code": 10,
+  "details": "PUERTA DELANTERA IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090608"
+  },
+  "code": 14,
+  "details": "GUARDABARRO DEL IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909060a"
+  },
+  "code": 72,
+  "details": "PARANTE ESQUINA DEL IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909060b"
+  },
+  "code": 30,
+  "details": "ESPEJO EXTERNO IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909060d"
+  },
+  "code": 38,
+  "details": "ESTRIBO IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909060c"
+  },
+  "code": 35,
+  "details": "ZOCALO LATERAL IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090610"
+  },
+  "code": 82,
+  "details": "GUARDABARRO TRASERO IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090612"
+  },
+  "code": 74,
+  "details": "PARANTE ESQUINA TRAS IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090611"
+  },
+  "code": 11,
+  "details": "PUERTA TRASERA IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090613"
+  },
+  "code": 15,
+  "details": "CUARTO TRASERO IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090615"
+  },
+  "code": 88,
+  "details": "PUERTA DE CABINA DE CUCHETA",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090614"
+  },
+  "code": 78,
+  "details": "EXT. CUARTO TRASERO IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090616"
+  },
+  "code": 20,
+  "details": "PARABRISAS DE VIDRIO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a55"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909060e"
+  },
+  "code": 70,
+  "details": "PARANTE CENTRAL IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090618"
+  },
+  "code": 80,
+  "details": "CUBRETABLERO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a55"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090619"
+  },
+  "code": 27,
+  "details": "CAPOT",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a55"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909061a"
+  },
+  "code": 23,
+  "details": "PLANCHA SUP/EXT BAUL",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a55"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909061b"
+  },
+  "code": 24,
+  "details": "FARO CUBIERTA LUZ DE GIRO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a55"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909061c"
+  },
+  "code": 22,
+  "details": "PARRILLA",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a55"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909060f"
+  },
+  "code": 75,
+  "details": "PANEL DE CABINA LAT IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a54"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178772"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909061d"
+  },
+  "code": 25,
+  "details": "LUCES NIEBLA MEDIAS POS",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a55"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909061f"
+  },
+  "code": 3,
+  "details": "PARAGOLPE CUB EXT DEL",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a55"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090620"
+  },
+  "code": 5,
+  "details": "PROTEC PARAGOLPE / FLEJE",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a55"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090621"
+  },
+  "code": 41,
+  "details": "SUPLEM PARAGOLPE",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a55"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090622"
+  },
+  "code": 42,
+  "details": "PANEL SALPICADURA DEL",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a55"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090623"
+  },
+  "code": 16,
+  "details": "GUARDABARRO DEL DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090626"
+  },
+  "code": 31,
+  "details": "ESPEJO EXTERNO DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090624"
+  },
+  "code": 12,
+  "details": "PUERTA DELANTERA DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090627"
+  },
+  "code": 36,
+  "details": "ZOCALO LATERAL DEL",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090625"
+  },
+  "code": 71,
+  "details": "PARANTE ESQUINA DEL DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090617"
+  },
+  "code": 59,
+  "details": "LIMPIAPARABRISAS",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a55"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090629"
+  },
+  "code": 69,
+  "details": "PARANTE CENTRAL DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909062a"
+  },
+  "code": 9,
+  "details": "PUERTA CARGA DERECHA",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909062b"
+  },
+  "code": 76,
+  "details": "PANEL DE CABINA LAT DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909062c"
+  },
+  "code": 13,
+  "details": "PUERTA TRASERA DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909062d"
+  },
+  "code": 83,
+  "details": "GUARDABARRO TRASERO DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909062e"
+  },
+  "code": 73,
+  "details": "PARANTE ESQUINA TRAS DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909062f"
+  },
+  "code": 17,
+  "details": "CUARTO TRASERO DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090630"
+  },
+  "code": 79,
+  "details": "EXT. CUARTO TRASERO DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909061e"
+  },
+  "code": 1,
+  "details": "ANTENA",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a55"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090632"
+  },
+  "code": 43,
+  "details": "PANEL SALPICADURA TRAS",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090633"
+  },
+  "code": 34,
+  "details": "PANEL EXTREMO TRASERO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090634"
+  },
+  "code": 4,
+  "details": "PARAGOLPE CUB EXT TRAS",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090635"
+  },
+  "code": 6,
+  "details": "PROTEC PARAGOLPE / FLEJE",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090636"
+  },
+  "code": 41,
+  "details": "SUP. PARAGOLPE DEL",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090637"
+  },
+  "code": 7,
+  "details": "PUERTA CARGA TRAS DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090638"
+  },
+  "code": 8,
+  "details": "PUERTA CARGA TRAS IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090639"
+  },
+  "code": 61,
+  "details": " INTERIOR CAJA PICK-UP",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909063a"
+  },
+  "code": 77,
+  "details": "PANEL CABINA TRASERO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909063b"
+  },
+  "code": 21,
+  "details": "LUNETA TRASERA",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909063c"
+  },
+  "code": 52,
+  "details": "TAPA BAUL / PUERTA DE COLA",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909063d"
+  },
+  "code": 87,
+  "details": "PANEL FRONTAL COMPARTIM",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909063e"
+  },
+  "code": 45,
+  "details": "FARO TRASERO / ARO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909063f"
+  },
+  "code": 92,
+  "details": "SOPORTE CHAPA PATENTE",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090640"
+  },
+  "code": 40,
+  "details": "NEUMATICO / RUEDA AUXILIO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090641"
+  },
+  "code": 84,
+  "details": "HERR / GATO / KIT / TRABA AUX",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090642"
+  },
+  "code": 57,
+  "details": "TASA DE RUEDAS",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090643"
+  },
+  "code": 18,
+  "details": "ALFOMBRA PISO DELANTERA",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090644"
+  },
+  "code": 19,
+  "details": "ALFOMBRA PISO TRASERA",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090645"
+  },
+  "code": 64,
+  "details": "DEFLECTOR VIENTO / SPOILER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090646"
+  },
+  "code": 55,
+  "details": "AREA DE CARGA - OTROS",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a57"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090647"
+  },
+  "code": 47,
+  "details": "RUEDA - NO DE AUXILIO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090648"
+  },
+  "code": 91,
+  "details": "SISTEMA DE ESCAPE",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090649"
+  },
+  "code": 62,
+  "details": "CONVERT. CATALITICO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909064a"
+  },
+  "code": 44,
+  "details": "TANQUE DE NAFTA",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909064b"
+  },
+  "code": 81,
+  "details": "TAPA DE CARGA COMBUSTIBLE",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909064c"
+  },
+  "code": 90,
+  "details": "BASTIDOR",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909064d"
+  },
+  "code": 93,
+  "details": "SISTEMA DE SUSPENSION",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909064e"
+  },
+  "code": 54,
+  "details": "TREN INFERIOR - OTROS",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909064f"
+  },
+  "code": 2,
+  "details": "BATERIA / CAJA",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090650"
+  },
+  "code": 86,
+  "details": "FILTRO DE AIRE / TUBO ADMIS",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090651"
+  },
+  "code": 99,
+  "details": "COMPAR. MOTOR / OTROS",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090652"
+  },
+  "code": 37,
+  "details": "TECHO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090653"
+  },
+  "code": 56,
+  "details": "CUB. TECHO CONV / VINILICO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090654"
+  },
+  "code": 53,
+  "details": "TECHO CORREDIZO / CAPOTA",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090655"
+  },
+  "code": 65,
+  "details": "PORTA EQUIPAJE",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090656"
+  },
+  "code": 63,
+  "details": "LARGUEROS - BANCADA CAMION",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a58"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090657"
+  },
+  "code": 26,
+  "details": "FORRO DE TECHO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090658"
+  },
+  "code": 29,
+  "details": "ESPEJO INTERIOR",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090628"
+  },
+  "code": 39,
+  "details": "ESTRIBO DERECHO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909065a"
+  },
+  "code": 66,
+  "details": "TABLERO - PANEL INSTRUM",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909065b"
+  },
+  "code": 67,
+  "details": "ESCENDEDOR / CENICERO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909065c"
+  },
+  "code": 33,
+  "details": "RADIO / PASACASSETTE / CB",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909065d"
+  },
+  "code": 58,
+  "details": "PARLANTES",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909065e"
+  },
+  "code": 85,
+  "details": "MICROFONO CB / TELEFONO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e2277909065f"
+  },
+  "code": 48,
+  "details": "PANEL TAPIZADO DEL IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090660"
+  },
+  "code": 94,
+  "details": "ASIENTO DELANTERO IZQ",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090661"
+  },
+  "code": 95,
+  "details": "ASIENTO DELANTERO DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090662"
+  },
+  "code": 50,
+  "details": "PANEL TAPIZADO DEL DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090663"
+  },
+  "code": 68,
+  "details": "ALFOMBRA DELANTERA",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090664"
+  },
+  "code": 97,
+  "details": "ALFOMBRA TRASERA",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090631"
+  },
+  "code": 89,
+  "details": "PUERTA DE CABINA DE CUCHETA DER",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a56"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090666"
+  },
+  "code": 98,
+  "details": "INTERIOR",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090667"
+  },
+  "code": 32,
+  "details": "INFORMACION ESPECIAL",
+  "sectorDamage": {
+    "$oid": "631918c47ef1e22779090605"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090668"
+  },
+  "code": 0,
+  "details": "SIN OBSERVACIONES",
+  "sectorDamage": {
+    "$oid": "631918c47ef1e22779090605"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090659"
+  },
+  "code": 28,
+  "details": "LLAVES",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "631918fa7ef1e22779090665"
+  },
+  "code": 96,
+  "details": "ASIENTO TRASERO",
+  "sectorDamage": {
+    "$oid": "6317ffce7f06c122377f0a59"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662589178776"
+    }
+  }
+}]

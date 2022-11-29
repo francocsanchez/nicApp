@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "63123c7280ca7bb6d72d854b"
+  },
+  "name": "V. ESPECIALES",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662139506319"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662139506319"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63123c7980ca7bb6d72d854d"
+  },
+  "name": "CONVENCIONAL",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662139513075"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662139513075"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63123c7e80ca7bb6d72d854f"
+  },
+  "name": "PLAN DE AHORRO",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662139518663"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662139518663"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63123c8480ca7bb6d72d8551"
+  },
+  "name": "USADO",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662139524133"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662139524133"
+    }
+  }
+}]

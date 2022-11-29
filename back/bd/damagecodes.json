@@ -1,0 +1,494 @@
+[{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043d0"
+  },
+  "details": "SIN EXCEPCION.",
+  "code": 0,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043d1"
+  },
+  "details": "DOBLADO",
+  "code": 1,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043d2"
+  },
+  "details": "ROTO (EXC. VIDRIO)",
+  "code": 2,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043d6"
+  },
+  "details": "QUEBRADO (EXC. VIDRIO)",
+  "code": 6,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043d7"
+  },
+  "details": "ROZADO",
+  "code": 7,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043d3"
+  },
+  "details": "CORTADO",
+  "code": 3,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043d8"
+  },
+  "details": "FALTANTE (EXC. MOLDURA)",
+  "code": 8,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043d9"
+  },
+  "details": "RASPADO",
+  "code": 9,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043d4"
+  },
+  "details": "ABOLLADO (PINTURA ROTA O QUEBRADA)",
+  "code": 4,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043db"
+  },
+  "details": "PERFORADO",
+  "code": 11,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043dc"
+  },
+  "details": "RAYADO (EXC. VIDRIO)",
+  "code": 12,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043dd"
+  },
+  "details": "DESGARRADO",
+  "code": 13,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043de"
+  },
+  "details": "ABOLLADO - PINTURA / CROMADO NO DAÑADO",
+  "code": 14,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043d5"
+  },
+  "details": "MELLADO (EXC. VIDRIO Y BLOQUE DE PANEL)",
+  "code": 5,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671832"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043e0"
+  },
+  "details": "MOLDURA / BURLETE / EMB. SUELTO O FALTANTE",
+  "code": 19,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043e1"
+  },
+  "details": "VIDRIO RAJADO",
+  "code": 20,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043e2"
+  },
+  "details": "VIDRIO ROTO",
+  "code": 21,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043e3"
+  },
+  "details": "VIDRIO MELLADO",
+  "code": 22,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043e4"
+  },
+  "details": "VIDRIO RAYADO",
+  "code": 23,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043e5"
+  },
+  "details": "LUZ INDICADORA DAÑADA",
+  "code": 24,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043e6"
+  },
+  "details": "DAÑO DE CALCOMANIA / FRANJA DE PINTURA / VETA DE MADERA",
+  "code": 25,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043e7"
+  },
+  "details": "DERRAME DE FLUIDO EXT",
+  "code": 33,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043e8"
+  },
+  "details": "BORDE PANEL MELLADO",
+  "code": 34,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043e9"
+  },
+  "details": "PIEZA INCORRECTA",
+  "code": 35,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043ea"
+  },
+  "details": "OPCIONAL NO FACTURADO",
+  "code": 36,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671834"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671834"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043eb"
+  },
+  "details": "HERAJES EXT. DAÑADOS",
+  "code": 37,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671834"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671834"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043ec"
+  },
+  "details": "HERAJES EXTERIORES SUELTOS O FALTANTES",
+  "code": 38,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671834"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671834"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043da"
+  },
+  "details": "MANCHADO / SUCIO INT.",
+  "code": 10,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6317c70fb6955412f46043df"
+  },
+  "details": "MOLDURA / BURLETE / EMB. DAÑADO",
+  "code": 15,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662502671833"
+    }
+  }
+}]
