@@ -8,14 +8,12 @@ import useAuth from "../../../hooks/useAuth";
 import { SerializeForm } from "../../../helpers/SerializeForm";
 
 export const FormDamages = ({ arrDamage, setArrDamage }) => {
+  const { token } = useAuth();
+
   let navigate = useNavigate();
 
-  const [sectorDamage, setSectorDamage] = useState([]);
-  const [damageCode, setDamageCode] = useState([]);
-  const [severityCode, setSeverityCode] = useState([]);
   const [damageDetails, setDamageDetails] = useState([]);
-  const [typeDamage, setTypeDamage] = useState([]);
-  const { token } = useAuth();
+  const [adminDamage, setAdminDamage] = useState([]);
 
   const [sendForm, setSendForm] = useState(true);
   const [arrValidator, setArrValidator] = useState({
@@ -25,30 +23,15 @@ export const FormDamages = ({ arrDamage, setArrDamage }) => {
     statusBtn: true,
   });
 
-  const getSectorDamage = async () => {
-    const data = await axios.get(`${Global.url}sector-damage`);
-    setSectorDamage(data.data.data);
-  };
-
-  const getSeverityCode = async () => {
-    const data = await axios.get(`${Global.url}severity-code`);
-    setSeverityCode(data.data.data);
-  };
-
-  const getDamageCode = async () => {
-    const data = await axios.get(`${Global.url}damage-code`);
-    setDamageCode(data.data.data);
-  };
-
-  const getTypeDamage = async () => {
-    const data = await axios.get(`${Global.url}damage-type`);
-    setTypeDamage(data.data.data);
+  const getAdminDamage = async () => {
+    const data = await axios.get(`${Global.url}admin/damage-admin`);
+    setAdminDamage(data.data.data);
   };
 
   const changeSectorDamage = async (e) => {
     const sectorDamageid = e.target.value;
     const data = await axios.get(
-      `${Global.url}damage-details/sector/${sectorDamageid}`
+      `${Global.url}admin/damage-details-sector/${sectorDamageid}`
     );
     setDamageDetails(data.data.data);
 
@@ -125,7 +108,7 @@ export const FormDamages = ({ arrDamage, setArrDamage }) => {
 
     let car = SerializeForm(e.target);
     car.damages = arrDamage;
-    
+
     await axios
       .post(`${Global.url}damages/`, car, {
         headers: {
@@ -159,10 +142,7 @@ export const FormDamages = ({ arrDamage, setArrDamage }) => {
   };
 
   useEffect(() => {
-    getSectorDamage();
-    getDamageCode();
-    getSeverityCode();
-    getTypeDamage();
+    getAdminDamage();
   }, []);
 
   return (
@@ -181,7 +161,7 @@ export const FormDamages = ({ arrDamage, setArrDamage }) => {
               <option disabled value="">
                 Selecciona una opcion
               </option>
-              {sectorDamage?.map((type) => {
+              {adminDamage.sectorDamage?.map((type) => {
                 return (
                   <option key={type._id} value={type._id}>
                     {type.name}
@@ -223,7 +203,7 @@ export const FormDamages = ({ arrDamage, setArrDamage }) => {
               <option value="" disabled>
                 Selecciona una opcion
               </option>
-              {damageCode?.map((type) => {
+              {adminDamage.damageCode?.map((type) => {
                 return (
                   <option key={type._id} value={type._id}>
                     CODIGO: {type.code} - {type.details}
@@ -244,7 +224,7 @@ export const FormDamages = ({ arrDamage, setArrDamage }) => {
               <option value="" disabled>
                 Selecciona una opcion
               </option>
-              {severityCode?.map((type) => {
+              {adminDamage.severityCode?.map((type) => {
                 return (
                   <option key={type._id} value={type._id}>
                     CODIGO: {type.code} - {type.details}
@@ -293,7 +273,7 @@ export const FormDamages = ({ arrDamage, setArrDamage }) => {
               <option value="" disabled>
                 Selecciona una opcion
               </option>
-              {typeDamage.map((type) => {
+              {adminDamage.typeDamage?.map((type) => {
                 return (
                   <option key={type._id} value={type._id}>
                     {type.name}
