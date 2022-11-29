@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 import axios from "axios";
 import { Global } from "../../../helpers/Global";
+import { Link } from "react-router-dom";
 
 export const ListCardDamage = ({ arrDamage, setArrDamage }) => {
   const [sectorDamage, setSectorDamage] = useState([]);
@@ -47,9 +48,12 @@ export const ListCardDamage = ({ arrDamage, setArrDamage }) => {
                 }
               </small>
             </div>
-            <span className="text-danger" onClick={() => deleteDamage(i)}>
+            <Link
+              className="text-danger text-decoration-none"
+              onClick={() => deleteDamage(i)}
+            >
               X
-            </span>
+            </Link>
           </li>
         );
       })}
