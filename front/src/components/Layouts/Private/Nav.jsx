@@ -3,10 +3,32 @@ import { Link } from "react-router-dom";
 import useAuth from "../../../hooks/useAuth";
 
 export const Nav = () => {
-
-  const {auth} = useAuth();
+  const { auth } = useAuth();
   return (
     <ul className="nav nav-pills">
+      <li className="nav-item dropdown">
+        <Link
+          className="nav-link dropdown-toggle"
+          href="/#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          SINIESTROS
+        </Link>
+        <ul className="dropdown-menu">
+          <li>
+            <Link className="dropdown-item" to={`damages`}>
+              Listado
+            </Link>
+          </li>
+          <li>
+            <Link to="damages/repair" className="dropdown-item">
+              Reparados
+            </Link>
+          </li>
+        </ul>
+      </li>
       <li className="nav-item dropdown">
         <Link
           className="nav-link dropdown-toggle"
@@ -24,7 +46,7 @@ export const Nav = () => {
             </Link>
           </li>
           <li>
-            <Link to='logout' className="dropdown-item">
+            <Link to="logout" className="dropdown-item">
               Salir
             </Link>
           </li>

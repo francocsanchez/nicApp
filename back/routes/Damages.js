@@ -21,11 +21,12 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 // TODO: Siniestros rutas
-router.get('/', checkAuth, getItems);
+router.get('/repair', checkAuth, getItemsRepair);
 router.get('/:id', checkAuth, getItem);
+router.get('/', checkAuth, getItems);
+
 router.post('/', checkAuth, addItem);
 router.post('/history/add', checkAuth, addHistory);
 router.post('/history/:id/img/add', checkAuth, upload.single('img'), addImg)
-router.get('/repair', checkAuth, getItemsRepair);
 
 module.exports = router;
