@@ -32,7 +32,7 @@ const ImgDamage = () => {
       <TableDamages details={damage.damage?.damages} />
       <div className="row">
         <div className="col-8">
-          <ListImg img={damage.damage?.img} />
+          <ListImg img={damage.damage?.img} vin={damage.car?.vin}/>
         </div>
         <div className="col-4">
           <FormAddImg />
