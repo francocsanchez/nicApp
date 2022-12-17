@@ -16,6 +16,7 @@ export const FormAddImg = () => {
   };
 
   const addImg = async (e) => {
+    setStateUpload(true);
     e.preventDefault();
     const formData = new FormData();
     formData.append("img", e.target.img.files[0]);
