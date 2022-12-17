@@ -2,6 +2,14 @@ const { damageModel } = require('../models');
 const { validationResult } = require('express-validator');
 const fs = require('fs');
 
+const ImageKit = require('imagekit');
+
+const imagekit = new ImageKit({
+    publicKey: process.env.Imagekit_publicKey,
+    privateKey: process.env.Imagekit_privateKey,
+    urlEndpoint: process.env.Imagekit_urlEndpoint
+});
+
 const getItems = async (req, res) => {
     try {
         const data = await damageModel.find({ 'damage.repair': false });
@@ -26,6 +34,37 @@ const getItemsRepair = async (req, res) => {
             data
         });
 
+}
+
+const addItem = async (req, res) => {
+
+    const errors = validationResult(req);
+
+    if (!errors.isEmpty()) {
+        return res.status(400).json({ errors: errors.mapped() });
+    }
+
+    const { vin, typeDamage, damages } = req.body;
+
+    await damageModel.create({
+        'car.vin': vin,
+        'damage.typeDamage': typeDamage,
+        'damage.history': [{
+            'details': 'Unidad ingresada'
+        }],
+        'damage.damages': damages
+    })
+
+    imagekit.createFolder({
+        folderName: vin.toUpperCase(),
+        parentFolderPath: "damages"
+    })
+
+    return res.status(200)
+        .json({
+            status: 'success',
+            msg: 'Siniestro creado correctamente'
+        });
 }
 
 const getItem = async (req, res) => {
@@ -84,32 +123,6 @@ const addHistory = async (req, res) => {
         });
 }
 
-const addItem = async (req, res) => {
-
-    const errors = validationResult(req);
-
-    if (!errors.isEmpty()) {
-        return res.status(400).json({ errors: errors.mapped() });
-    }
-
-    const { vin, typeDamage, damages } = req.body;
-
-    await damageModel.create({
-        'car.vin': vin,
-        'damage.typeDamage': typeDamage,
-        'damage.history': [{
-            'details': 'Unidad ingresada'
-        }],
-        'damage.damages': damages
-    })
-
-    return res.status(200)
-        .json({
-            status: 'success',
-            msg: 'Siniestro creado correctamente'
-        });
-}
-
 const addImg = async (req, res) => {
 
     const typeImg = req.file.mimetype.split('/').shift();
@@ -117,19 +130,30 @@ const addImg = async (req, res) => {
     if (typeImg === 'image') {
         const data = await damageModel.findOne({ "_id": req.params.id });
 
-        const newImg = {
-            img: req.file.filename
-        }
+        const imgBase64 = fs.readFileSync(req.file.path, { encoding: 'base64' });
 
-        data.damage.img.push(newImg);
+        await imagekit.upload({
+            file: imgBase64,
+            fileName: req.file.filename,
+            folder: `damages/${data.car.vin}`
+        }).then(response => {
 
-        data.save();
+            const newImg = { img: response.name }
+            data.damage.img.push(newImg);
 
-        return res.status(200)
-            .json({
-                status: 'success',
-                msg: 'Imagen agregada correctamente'
-            });
+            data.save();
+
+            fs.unlinkSync(req.file.path)
+
+            return res.status(200)
+                .json({
+                    status: 'success',
+                    msg: 'Imagen agregada correctamente'
+                });
+
+        }).catch(error => {
+            return console.log(error);
+        });
 
     } else if (typeImg != 'image') {
         fs.unlinkSync(req.file.path)
