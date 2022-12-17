@@ -1,3 +1,7 @@
 APP_PORT=
-DB_URI=mongodb://localhost:27017/test
+DB_URI=mongodb://localhost:27017/app-damages
 KEY_TOKEN=
+
+Imagekit_publicKey=
+Imagekit_privateKey=
+Imagekit_urlEndpoint=
